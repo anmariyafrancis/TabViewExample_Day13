@@ -14,7 +14,7 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         imgCircus.image = UIImage(named: "elephant")
-        tab
+        tabBarItem.badgeValue = String(50)
         // Do any additional setup after loading the view.
     }
 
