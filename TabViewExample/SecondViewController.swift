@@ -13,6 +13,8 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var imgCharacter: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imgCircus.image = UIImage(named: "elephant")
+        tabBarItem.badgeValue = String(50)
         // Do any additional setup after loading the view.
     }
 
