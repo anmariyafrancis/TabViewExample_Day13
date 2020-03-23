@@ -13,6 +13,8 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var imgCharacter: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        imgCircus.image = UIImage(named: "elephant")
+        tab
         // Do any additional setup after loading the view.
     }
 
